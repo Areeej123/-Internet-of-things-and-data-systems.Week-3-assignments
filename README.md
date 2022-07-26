@@ -8,7 +8,7 @@
   * Open the Arduino code in the Arduino IDE.
   * Then you have to connect the servo to the Arduino and connect the Arduino piece to the USB wire of your device.
   After that, press the connect button "اتصال" on the page to connect to the Serial Port
- *Simplified explanation of the code :
+ # -Simplified explanation of the code :
 
 Calling requestPort() prompts the user to select a device and returns a SerialPort object.
 Once you have a SerialPort object, calling port.open() with the desired baud rate will open the serial port.
